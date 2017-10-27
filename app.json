@@ -1,0 +1,12 @@
+{
+  "apps": [{
+    "name": "webhook",
+    "script": "index.js",
+    "env": {
+      "NODE_ENV": "production",
+      "PORT": 8888
+    },
+    "error_file" : "./logs/app-err.log",  // 错误日志路径
+    "out_file"   : "./logs/app-out.log"  // 普通日志路径
+  }]
+}
